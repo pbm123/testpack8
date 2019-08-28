@@ -3,11 +3,10 @@ from st2common.runners.base_action import Action
 
 class MyAction(Action):
     
-    def run(self,sub1,marks1,sub2,marks2,sub3,marks3):
-        thisdict = {}
-        thisdict[sub1]=marks1
-        thisdict[sub2]=marks2
-        thisdict[sub3]=marks3
-        for x in thisdict:
-            print('Marks in '+x+'='+str(thisdict[x]))
+    def run(self,num1):
+        
+        for x in range(num1):
+            for y in range(x)
+                print('*',end=" ")
+            print("\n")
         return(True)

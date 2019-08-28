@@ -6,33 +6,9 @@ description: hello python
 enabled: true
 entry_point : hellotraining.py
 parameters: 
-  sub1:
-    type: string 
+  num1:
+    type: integer 
     description: 1st parameter
     required: true
     position: 1
-  marks1:
-    type: integer
-    description: 2nd parameter
-    required: true
-    position: 2
-  sub2:
-    type: string
-    description: 3rd parameter
-    required: true
-    position: 3 
-  marks2:
-    type: integer
-    description: 4th parameter
-    required: true
-    position: 4
-  sub3:
-    type: string
-    description: 5th parameter
-    required: true
-    position: 5 
-  marks3:
-    type: integer
-    description: 6th parameter
-    required: true
-    position: 6
+  
