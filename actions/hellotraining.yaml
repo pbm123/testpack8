@@ -1,5 +1,5 @@
 ---
-name: hello8
+name: hello08
 pack: testpack8
 runner_type: "python-script"
 description: hello python 
@@ -7,7 +7,17 @@ enabled: true
 entry_point : hellotraining.py
 parameters: 
   a:
-    type: integer 
-    description: number 1
+    type: string 
+    description: 1st parameter
     required: true
     position: 1
+  b:
+    type: string
+    description: 2nd parameter
+    required: true
+    position: 2
+  c:
+    type: string
+    description: 3rd parameter
+    required: true
+    position: 3 
