@@ -7,6 +7,6 @@ class MyAction(Action):
         
         for x in range(num1):
             for y in range(x):
-                print('*',end=" ")
+                print('*')
             print("\n")
         return(True)
