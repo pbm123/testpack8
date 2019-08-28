@@ -9,5 +9,5 @@ class MyAction(Action):
         thisdict[sub2]=marks2
         thisdict[sub3]=marks3
         for x in thisdict:
-            print(x+(str)thisdict[x])
+            print(x+str(thisdict[x]))
         return(True)
