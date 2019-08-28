@@ -6,7 +6,7 @@ class MyAction(Action):
     def run(self,num1):
         
         for x in range(num1):
-            for y in range(x)
+            for y in range(x):
                 print('*',end=" ")
             print("\n")
         return(True)
